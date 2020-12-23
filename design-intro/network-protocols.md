@@ -26,3 +26,6 @@ Agreed upon set of rules of interaction between two parties
 - Request-response paradigm: 1 machine sends a request to another machine and the other machine returns a response to the machine
 - Most modern day ststems rely on modern day systems
 - We deal with HTTP request + responses
+- Say we have a port in localhost:3000 and a GET /hello resource
+  - `curl localhost:3000/hello`
+  - `curl --header 'content-type: application/json' localhost:3000/hello --data '{"foo": "bar"}'`
